@@ -6,8 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
+    <div id="search-container">
+        <input type="text" placeholder="Search your favorite pokemon" id="search-poke">
+        <button id="search-btn"><img src="src/icons/chercher.png" alt="" id="icon-search"></button>
+    </div>
+    <p id="error-msg">Please enter a correct pokemon name </p>
+
     <div class="main-container">
+        <img src="" id="type1"></img>
         <div id="wrapper">
             <div id="img-wrapper">
                 <img src="" alt="" id="image">
@@ -16,11 +23,12 @@
         <div id="header">
             <div id="number"></div>
             <div id="name"></div>
-            <img src="" id="type1"></img>
+            
         </div>
     </div>
-    
-    <button id="button">Faire apparaître un nouveau pokémon</button>
+
+   <button id="button">Random Pokemon</button>
+   <p id="copyright">Réalisé par Valentin Bonnamour</p>
     <script src="app.js"></script>
 </body>
 </html>
